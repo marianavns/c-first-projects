@@ -1,16 +1,19 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-int main()
+int main(int argc, char *argv[])
 {
-    float real,taxa,resultado;
-    printf("Insira o valor em reais a converter para dolar: ");
+    float real,rate,results;
+    printf("# Conversor de real para dolar #");
+
+    printf("\nInsira o valor em reais a ser convertido: ");
     scanf("%f", &real);
 
-    printf("Qual o valor do dolar hoje? ");
-    scanf("%f", &taxa);
+    printf("Qual o valor, em reais, de um dolar hoje? ");
+    scanf("%f", &rate);
 
-    resultado = real / taxa;
+    results = real / rate;
     
-    printf("\nR$ %.2f = US$ %.2f.", real,resultado);
+    printf("\nR$ %.2f = US$ %.2f.", real,results);
     return 0;
 }
