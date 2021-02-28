@@ -9,7 +9,6 @@
         nome = "mariana";
         printf("%s", nome);
 
-// COMO ESCREVER INSTRUÇÕES BÁSICAS?
 // ALGUMAS INSTRUÇÕES ESTÃO ERRADAS. CORRIJA:
             
 // a) scanf("d", valor);
